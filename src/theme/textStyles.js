@@ -1,8 +1,24 @@
 const textStyles = {
   heading01: {
-    fontSize: { base: '20px', lg: '26px' },
+    fontSize: { base: '22px', lg: '26px' },
     lineHeight: '28px',
     fontWeight: 400,
+  },
+  heading02: {
+    fontSize: { base: '18px', lg: '24px' },
+    lineHeight: { base: '26px', lg: '32px' },
+    fontWeight: 400,
+  },
+  heading03: {
+    fontSize: { base: '18px', lg: '22px' },
+    lineHeight: { base: '26px', lg: '32px' },
+    fontWeight: 400,
+  },
+  text01: {
+    fontSize: { base: '16px', lg: '18px' },
+    lineHeight: '24px',
+    fontWeight: 300,
+    color: 'gray.500',
   },
   titleMd: {
     fontSize: '18px',
