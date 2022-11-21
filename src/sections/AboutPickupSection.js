@@ -20,7 +20,7 @@ const AboutPickupSection = () => {
           About
         </Text>
         <Text textStyle="heading02" fontWeight="700">
-          UX BOOK CLUB
+          Pickup Design
         </Text>
       </VStack>
       <Flex
