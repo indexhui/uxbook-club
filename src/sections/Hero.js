@@ -89,9 +89,9 @@ const Hero = () => {
       }}
     >
       <MotionImage
-        w="380px"
-        top="-130px"
-        left="-100px"
+        w={{ base: '200px', lg: '380px' }}
+        top={{ base: '-80px', lg: '-130px' }}
+        left={{ base: '-40px', lg: '-100px' }}
         position="absolute"
         src={blueBook}
         style={{
@@ -100,9 +100,9 @@ const Hero = () => {
         }}
       />
       <MotionImage
-        w="380px"
-        bottom="-130px"
-        right="-100px"
+        w={{ base: '200px', lg: '380px' }}
+        bottom={{ base: '-80px', lg: '-130px' }}
+        right={{ base: '-40px', lg: '-100px' }}
         position="absolute"
         src={blueBook}
         style={{
